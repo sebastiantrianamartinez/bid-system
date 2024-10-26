@@ -1,0 +1,23 @@
+.app-header{
+    height: 60px;
+    background-color: var(--primary-color);
+    display: flex;
+}
+
+.app-header img{
+    height: 40px;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.app-main h1{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.app-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}

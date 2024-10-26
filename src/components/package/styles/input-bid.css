@@ -1,0 +1,56 @@
+.bid-input-container{
+    display: flex;
+    height: 40px;
+    border: 1px solid #07aa87;
+    background-color: #07aa87;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 150px;
+}
+
+.bid-input-entry{
+    display: flex;
+    width: 70%;
+}
+
+.bid-input-container > img{
+    max-width: 20%;
+    width: 1.4em;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+.bid-input-entry > input{
+    border: none;
+    width: 80%;
+    outline: none !important;
+    font-size: 1.4em;
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.bid-input-entry > p{
+    width: 20%;
+    text-align: center;
+    align-self: center;
+    font-size: 1.5em;
+    color: var(--text-color);
+}
+
+.bid-input-container input[type="number"]::-webkit-outer-spin-button,
+.bid-input-container input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Ocultar los signos de subir y bajar en Firefox */
+.bid-input-container input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.bid-input-container input[type="number"]::placeholder{
+    color: var(--text-color);
+    opacity: 0.90;
+}

@@ -1,0 +1,84 @@
+.app-home{
+    display: flex;
+    gap: 20px;
+}
+
+.app-home-feature{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 30%;
+}
+
+.app-home-feature > h3{
+    font-size: 1.17em;
+    font-weight: 400;
+}
+
+.tips-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+.tip {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid var(--primary-color);
+}
+
+.tip h3 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 1em;
+    color: #333333;
+}
+
+.tip p {
+    font-size: .8em;
+    margin: 0;
+    color: #666666;
+}
+
+.app-instruction {
+    background-color: #1d1d1d;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid var(--primary-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.app-instruction > img{
+    max-width: 100px;
+}
+
+.app-instruction li{
+    font-size: 1em;
+    padding: 5px;
+}
+
+.app-home-feature code{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.app-instruction code{
+    background-color: #333333;
+    color: #fff;
+}
